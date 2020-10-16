@@ -13,7 +13,7 @@ pipeline {
 		}
 		 stage('runShellScript') {
             steps {
-          sh '''cd /root
+          sh '''cd /tmp
           ./deploy.sh'''      
             }
 		}
